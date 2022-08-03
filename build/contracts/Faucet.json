@@ -1,0 +1,125 @@
+{
+  "contractName": "Faucet",
+  "abi": [
+    {
+      "stateMutability": "payable",
+      "type": "receive",
+      "payable": true
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"stateMutability\":\"payable\",\"type\":\"receive\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/FaucetContract.sol\":\"Faucet\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/FaucetContract.sol\":{\"keccak256\":\"0x7b3b3ebe77428d0436d6f48878f4c6d65e7209be2335cd480dae4b461fb68f18\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://82ada748daec5d4c068446c846923d062d8931f9f141f1e902d61579185ca827\",\"dweb:/ipfs/Qme8sqQ7ifEGAm43F64mhChoHWJ2DYKHVtkdF4hkAvEX9T\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50604580601d6000396000f3fe608060405236600a57005b600080fdfea2646970667358221220730d9c86903c2a896b6db157cdbdcbf178672f5b4c95b6f2f81df5c0050c710164736f6c634300080f0033",
+  "deployedBytecode": "0x608060405236600a57005b600080fdfea2646970667358221220730d9c86903c2a896b6db157cdbdcbf178672f5b4c95b6f2f81df5c0050c710164736f6c634300080f0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "70:64:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "70:64:0:-:0;;;;;;;;;;",
+  "source": " // SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.22 <0.9.0;\r\n\r\ncontract Faucet {\r\n    \r\n    receive() external payable {} \r\n\r\n}",
+  "sourcePath": "C:\\Code\\Solidity\\faucet\\contracts\\FaucetContract.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/FaucetContract.sol",
+    "exportedSymbols": {
+      "Faucet": [
+        6
+      ]
+    },
+    "id": 7,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "34:32:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Faucet",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "Faucet",
+        "nameLocation": "79:6:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "126:2:0",
+              "statements": []
+            },
+            "id": 5,
+            "implemented": true,
+            "kind": "receive",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "106:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "126:0:0"
+            },
+            "scope": 6,
+            "src": "99:29:0",
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 7,
+        "src": "70:64:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "34:100:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.15+commit.e14f2714.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x240308DA2Baa2e76C4DDfa0d7C528eD6DdDF18B8",
+      "transactionHash": "0x2e7fa8ba54633500ababa8a92b35d0506f7bada3398701f5448971dc03c2dd85"
+    }
+  },
+  "schemaVersion": "3.4.8",
+  "updatedAt": "2022-08-03T18:00:33.814Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
